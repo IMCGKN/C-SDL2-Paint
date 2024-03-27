@@ -77,6 +77,7 @@ int main(int argc, char** argv)
             {
                 if(mouseDown == true)
                 {
+                    
                     int mouseX = e.motion.x;
                     int mouseY = e.motion.y;
                     for(int i = 0; i < 60; i++)
